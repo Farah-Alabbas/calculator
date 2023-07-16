@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 2000px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+
+    position: relative;
+    left: 390px;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-areas: " inp inp inp inp "
+        "C  C roow division "
+        "seven eight nine times"
+        "four fife six mins"
+        "one two three plus"
+        "zero zero zero equal";
+}
+
+.inp {
+    grid-area: inp;
+    text-align: right;
+    background-color: rgba(48, 46, 46, 0.716);
+    color: rgb(250, 250, 250);
+    font-size: 30px;
+    line-height: 2.5;
+
+    font-size: 3rem;
+
+}
+
+.C {
+    grid-area: C;
+}
+
+.row {
+    grid-area: roow;
+}
+
+.division {
+    grid-area: division;
+
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.times {
+    grid-area: times;
+
+}
+
+.four {
+    grid-area: four;
+}
+
+.six {
+    grid-area: six;
+}
+
+.mins {
+    grid-area: mins;
+
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.plus {
+    grid-area: plus;
+
+}
+
+.zero {
+    grid-area: zero;
+
+}
+
+.equal {
+    grid-area: equal;
+
+
+}
+
+.styled {
+    background-color: rgb(212, 124, 231);
+    border-right: none;
+
+}
+
+.styled:hover {
+    background-color: #bb93cdca;
+}
+
+.share {
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.buttons:hover {
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(255, 249, 249);
+
+}
